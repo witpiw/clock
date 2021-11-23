@@ -1,0 +1,53 @@
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #1d3557;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+#clock {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 200px;
+  width: 600px;
+  height: 600px;
+  border: solid #e63946 20px;
+  border-radius: 50%;
+}
+#center {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #f1faee;
+  border-radius: 50%;
+}
+.hand {
+  position: absolute;
+  bottom: 50%;
+  transform-origin: bottom center;
+  background-color: #f1faee;
+  border-radius: 10px 10px 10px 10px;
+}
+#hHand {
+  height: 150px;
+  width: 8px;
+}
+#mHand {
+  height: 200px;
+  width: 6px;
+}
+#sHand {
+  height: 250px;
+  width: 4px;
+}
+#timeDisplay {
+  font-size: 40px;
+  color: #f1faee;
+}
